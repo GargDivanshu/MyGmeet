@@ -1,14 +1,14 @@
 import React from 'react'
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, Redirect } from 'react-router-dom';
 import Card from './../../components/shared/Card/Card';
 import Button from './../../components/shared/Button/Button';
 
 const Home = () => {
 
-   const navigate = useNavigate();
+//    const navigate = useNavigate();
 
     function startRegister(){
-        navigate('/register')
+        // navigate('/register')
         console.log('Registering')
     }
 
